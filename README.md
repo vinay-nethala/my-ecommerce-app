@@ -40,7 +40,7 @@ This project follows real-world engineering practices and is fully Dockerized fo
 
 ## 🏗️ System Architecture
 
-```mermaid
+``` mermaid
 flowchart LR
   Browser -->|SSR Request| NextJS
   NextJS -->|API Calls| API[Next.js API Routes]
@@ -95,6 +95,8 @@ erDiagram
 ## 🚀 Quick Start (Docker – Recommended)
 ## Prerequisites
 Docker
+
+
 Docker Compose
 ## Steps:
 ```
@@ -108,13 +110,21 @@ http://localhost:3000
 ```
 ## Docker automatically:
 1.Starts PostgreSQL
+
+
 2.Runs Prisma migrations
+
+
 3.Seeds sample product data
+
+
 4.Starts the Next.js application
 
 ## 💻 Running Locally Without Docker
 ## Prerequisites
 1.Node.js 18+
+
+
 2.PostgreSQL running locally
 ```
 npm install
@@ -144,8 +154,14 @@ my-ecommerce-app/
 ```
 ## 🚧 Future Enhancements
 1.Checkout & payment integration
+
+
 2.Order history
+
+
 3.Admin dashboard
+
+
 4.Product reviews
 
 ## 👨‍💻 Author
